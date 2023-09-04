@@ -5,8 +5,7 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-		"test": "mocha ./tests/ --ui tdd",
-		"postinstall": "npm install"
+		"test": "mocha ./tests/ --ui tdd"
 	},
 	"dependencies": {
 		"body-parser": "^1.19.0",
